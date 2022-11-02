@@ -8,7 +8,7 @@ alert(playerName + ', я загадал число от 1 до 100. Попроб
 
 let number = random(100);
 let guess = prompt('Какое число я загадал?');
-let numberOfGuesses = 0;
+let numberOfGuesses = 1;
 
 while(guess != number) {
     if (guess > number) {
